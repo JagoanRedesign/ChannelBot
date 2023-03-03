@@ -2,6 +2,7 @@
   "name": "Channel Bot",
   "description": "Telegram bot to automate and manage channels",
   "logo": "https://telegra.ph/file/98cda0fd7ebdc4002f07e.jpg",
+ "stack": "heroku-20",
   "keywords": [
     "telegram",
     "bot",
@@ -14,7 +15,7 @@
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "free"
+      "size": "basic"
     }
   },
   "addons": [
